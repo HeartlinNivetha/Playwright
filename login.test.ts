@@ -11,8 +11,7 @@ import { chromium } from 'playwright/test';
     await page.fill('input[name="password"]', 'SuperSecretPassword!');
   
     // Click the login button
-   await page.click('button[type="submit"]'); // Or adjust to match the button selector if different
-   //await page.click('input[type="button"][value="submit"]'); 
+   await page.click('button[type="submit"]'); // Or adjust to match the button selector if different 
     // Optionally, wait for a navigation or element to confirm login
     await page.waitForNavigation();
   
