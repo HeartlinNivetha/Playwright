@@ -16,5 +16,5 @@ import { chromium } from 'playwright/test';
   //await page.click('button[type="fileSubmit"]');
    // Optional: Close the browser after the interactions
    //await browser.close();                                   // Closes the browser after the title is logged
-})()
+})();
    
