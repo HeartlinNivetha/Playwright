@@ -10,4 +10,4 @@ import { chromium } from 'playwright/test';
     await page.dragAndDrop('xpath=//*[@id="column-a"]', 'xpath=//*[@id="column-b"]');
     await page.waitForTimeout(4000); // Wait to observe the result
     await browser.close();                                   // Closes the browser after the title is logged
-})()
+})();
