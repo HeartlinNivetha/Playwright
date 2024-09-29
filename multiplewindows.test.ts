@@ -18,4 +18,4 @@ import { chromium } from 'playwright/test';
     await newPage.waitForTimeout(4000);
      // Optional: Close the browser after the interactions
      await browser.close();                                   // Closes the browser after the title is logged
-    })()
+    })();
