@@ -25,4 +25,4 @@ import { chromium } from 'playwright/test';
 
     // Optional: Close the browser after the interactions
     await browser.close();                                   // Closes the browser after the title is logged
-})()
+})();
