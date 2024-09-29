@@ -1,5 +1,4 @@
-const { chromium } = require('playwright');
-
+import { chromium } from 'playwright/test';
 (async () => {
  console.log('Script started');  // Logs the message when the script starts
 // Launch browser
