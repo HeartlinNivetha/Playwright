@@ -10,7 +10,7 @@ import { chromium } from 'playwright/test';
 
     try {
         // Attempt to click a button (or any other element)
-        await page.click('button[type="green"]');  // Replace with the actual button selector you want to click
+       await page.click('input[type="radio"][style="color: blue"]');  // Replace with the actual button selector you want to click
         console.log('Button clicked successfully!');
     } catch (error) {
         console.log('Button is not clickable. Taking screenshot...');
